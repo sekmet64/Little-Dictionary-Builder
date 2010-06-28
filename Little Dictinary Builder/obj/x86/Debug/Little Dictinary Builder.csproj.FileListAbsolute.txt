@@ -1,0 +1,10 @@
+d:\documents\visual studio 2010\Projects\DictB\Little Dictinary Builder\bin\Debug\Little Dictinary Builder.exe
+d:\documents\visual studio 2010\Projects\DictB\Little Dictinary Builder\bin\Debug\Little Dictinary Builder.pdb
+d:\documents\visual studio 2010\Projects\DictB\Little Dictinary Builder\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\documents\visual studio 2010\Projects\DictB\Little Dictinary Builder\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\documents\visual studio 2010\Projects\DictB\Little Dictinary Builder\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\documents\visual studio 2010\Projects\DictB\Little Dictinary Builder\obj\x86\Debug\Little Dictinary Builder.exe
+d:\documents\visual studio 2010\Projects\DictB\Little Dictinary Builder\obj\x86\Debug\Little Dictinary Builder.pdb
+d:\documents\visual studio 2010\Projects\DictB\Little Dictinary Builder\obj\x86\Debug\CsP.Little_Dictinary_Builder.Properties.Resources.resources
+d:\documents\visual studio 2010\Projects\DictB\Little Dictinary Builder\obj\x86\Debug\CsP.Little_Dictinary_Builder.MainForm.resources
+d:\documents\visual studio 2010\Projects\DictB\Little Dictinary Builder\obj\x86\Debug\CsP.Little_Dictinary_Builder.TryForm.resources

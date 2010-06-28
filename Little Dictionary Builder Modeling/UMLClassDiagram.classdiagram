@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="0c09ffc8-e8b9-4245-814f-a7246950c5ad" name="UMLClassDiagram1" linkedPackageId="37626a19-7016-4000-bb35-2ba1fcec62a7" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="cc6fb990-aa01-4b92-ac1d-9754da4a80d8">
+      <profileInstance Id="60c90f38-fc46-403f-b5d2-7430a42ac4d0" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d82b821e-445d-4f4e-b480-8a1fd8631788">
+      <profileInstance Id="439d7fbf-8b2e-4be9-ac81-2f5fa5a0cade" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0b8e91a3-55a1-4e1a-beac-4e8a0bd60d1a" name="Ipa" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="20b9fa1d-09ec-409a-a155-7c0892361519" />
+        <ownedAttributesInternal>
+          <property Id="4392e843-3d7c-497b-8aa1-a68eacf27c1d" name="_language" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e65ca6b2-c226-4665-aad2-d3c5ab555523" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="2b294c98-08d5-4d6d-8800-bcf422da614a" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="7ad95afa-aa2d-4a5f-b8de-5c5ae006d3d8" name="Ipa" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c6bb1544-6d7a-499e-b8ab-b6a885ce6b4c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="873334f7-61a9-4d23-ac04-a9a6ac448462" name="language" direction="In">
+                  <elementDefinition Id="356ba526-01b7-47de-8fa6-fbc88be38d34" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5d4aeebf-ac0e-4880-abf6-ab737ff8cafd" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b7b54bd3-32e3-4973-b037-aa3f9013fed4" name="source" direction="In">
+                  <elementDefinition Id="eacc9f2e-d03d-4a14-96c9-ee2dd01fcae8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5d4aeebf-ac0e-4880-abf6-ab737ff8cafd" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="b95f9e08-7a1a-450b-8e80-709b0f0bf402" name="AddKey" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8b639d6b-9f6d-46c0-b6be-98f2cbda6d8e" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="5d4aeebf-ac0e-4880-abf6-ab737ff8cafd" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="2b294c98-08d5-4d6d-8800-bcf422da614a" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="37626a19-7016-4000-bb35-2ba1fcec62a7" name="Little Dictionary Builder Modeling">
+    <elementDefinition Id="ad1762c0-a20f-482b-8560-cc2034ff846d" />
+  </package>
+</logicalClassDesignerModel>
